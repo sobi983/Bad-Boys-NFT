@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: monstrait;
+	src: url(../public/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: monstrait-bold;
+	src: url(../public/Montserrat-Bold.ttf);
+	font-weight: bold;
+}
+
+html,
+body,
+#root,
+.App {
+	scroll-behavior: smooth;
+}
+html {
+	font-family: monstrait;
+}
+strong,
+button {
+	font-family: monstrait-bold;
+	font-weight: 800;
+}
+
+.ju367v94 {
+	background-color: #d2ad47 !important;
+}
+.ju367v94:hover {
+	background-color: rgb(243 244 246 / var(--tw-bg-opacity)) !important;
+}
+.ju367v1e {
+	font-family: monstrait-bold !important;
+	text-transform: uppercase;
+}
+
+.ju367v84 {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+.ju367ved {
+	color: black !important;
+}
+.ju367vds {
+	box-shadow: none !important;
+}
+
+.ju367v1:hover {
+	transform: scale(1) !important;
+}
+.ju367v10 {
+	border-radius: 0 !important;
+}
